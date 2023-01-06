@@ -3,9 +3,12 @@ import "./App.css";
 import Profile from "./components/Profile";
 
 function App() {
+  const alertName = (arg) => {
+    alert(`Hello ${arg}`);
+  };
   return (
     <div className="App">
-      <Profile />
+      <Profile ourFunctinProp={alertName} />
     </div>
   );
 }

@@ -6,12 +6,13 @@ const Profile = ({
   fullName = "Guts",
   bio = "Lives in our hearts  ",
   profession = "Berserk",
+  ourFunctinProp,
 }) => {
   return (
     <>
       <header className="header">
         <div className="profileImg">
-          <img src={guts} alt="" onClick={alert} />
+          <img src={guts} alt="" onClick={() => ourFunctinProp(fullName)} />
         </div>
         <div className="profileInfo">
           <h1>
