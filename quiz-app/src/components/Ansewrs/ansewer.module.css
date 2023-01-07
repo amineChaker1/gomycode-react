@@ -1,5 +1,4 @@
-.container1,
-.container2 {
+.container1 {
   margin-top: 10vmin;
   color: white;
   display: flex;
@@ -9,6 +8,10 @@
 .ansewer {
   background-color: red;
   padding: 2vmin 5vmin;
+  color: white;
+}
+.ansewer:hover {
+  cursor: pointer;
 }
 .score {
   color: white;

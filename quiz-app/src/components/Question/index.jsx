@@ -1,10 +1,10 @@
 import React from "react";
 import c from "./question.module.css";
-const Question = () => {
+const Question = ({ question }) => {
   return (
     <>
       <div className={c.container}>
-        <p className={c.qst}>What is the full form of HTML ?</p>
+        <p className={c.qst}>{question}</p>
       </div>
     </>
   );
