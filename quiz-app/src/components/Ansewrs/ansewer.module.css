@@ -1,0 +1,17 @@
+.container1,
+.container2 {
+  margin-top: 10vmin;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 20vmin;
+}
+.ansewer {
+  background-color: red;
+  padding: 2vmin 5vmin;
+}
+.score {
+  color: white;
+  text-align: center;
+  margin-top: 10vmin;
+}

@@ -1,0 +1,9 @@
+.container {
+  background-color: black;
+  border: 5px solid red;
+}
+.qst {
+  color: white;
+  display: flex;
+  justify-content: center;
+}
