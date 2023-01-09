@@ -1,0 +1,18 @@
+.container {
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20vmin;
+  height: 80vh;
+}
+.product {
+  background-color: grey;
+  padding: 2vmin 5vmin;
+  border-radius: 10px;
+}
+.name {
+  background-color: antiquewhite;
+  padding: 2vmin 1vmin;
+  border-radius: 5px;
+}
