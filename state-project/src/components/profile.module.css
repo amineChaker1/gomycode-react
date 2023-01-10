@@ -1,0 +1,12 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10vmin;
+}
+.con img {
+  width: 200px;
+  margin-right: 10vmin;
+}
+.con {
+  text-align: left;
+}
