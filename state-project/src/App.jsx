@@ -3,14 +3,16 @@ import reactLogo from "./assets/react.svg";
 import "./App.css";
 import Profile from "./components/Profile";
 import profileData from "./data";
+
 function App() {
-  const [profileData, setProfileData] = useState(profileData);
+  const [userData, setProfileData] = useState([]);
   const handleClick = () => {
-    setProfileData([]);
+    setProfileData(profileData);
+    console.log(profileData);
   };
   return (
     <>
-      {profileData.map((data) => (
+      {userData.map((data) => (
         <Profile
           profileDesc={data.desc}
           profileIm={data.profileImg}
